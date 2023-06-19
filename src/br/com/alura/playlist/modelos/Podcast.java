@@ -1,4 +1,4 @@
-package br.com.alura.playlist.principal.modelos;
+package br.com.alura.playlist.modelos;
 
 public class Podcast extends Audio {
     private String apresentador;

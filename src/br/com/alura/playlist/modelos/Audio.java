@@ -1,10 +1,10 @@
-package br.com.alura.playlist.principal.modelos;
+package br.com.alura.playlist.modelos;
 
 public class Audio {
     private String Titulo;
     private int totalReproducoes;
     private int totalCurtidas;
-    private double classificacao;
+    private int classificacao;
 
 
     public String getTitulo() {
