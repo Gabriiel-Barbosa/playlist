@@ -1,5 +1,6 @@
 package br.com.alura.playlist.principal;
 
+import br.com.alura.playlist.modelos.Favoritas;
 import br.com.alura.playlist.modelos.Musica;
 import br.com.alura.playlist.modelos.Podcast;
 
@@ -33,5 +34,12 @@ public class Principal {
         System.out.println(meuPodcast.getTotalReproducoes());
         System.out.println(meuPodcast.getTotalCurtidas());
 
+        //Instanciando as Musicas Favoritas
+        Favoritas favoritas = new Favoritas();
+        favoritas.inclui(minhaMusica);
+        favoritas.inclui(meuPodcast);
+
     }
+
+
 }
